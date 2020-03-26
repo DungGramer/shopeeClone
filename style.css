@@ -1,0 +1,86 @@
+:root{
+	--primary-color: #3575D3;
+}
+html{
+	font-size: 62.5%;
+	line-height: 1.6rem;
+	font-family: "Roboto", sans-serif;
+	color: #333;
+}
+.image{
+	min-width: 35.4%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+img{
+	width: 10%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.card{
+	display: flex;
+	max-height: 20%;
+	max-width: 40%;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px 1px #e0e0e0;
+	overflow: hidden;
+}
+
+.name{
+	margin: 10px 30px 15px 0;
+}
+.name h1{
+	font-size: 2rem;
+	padding: 0;
+	margin: 0;
+	color: var(--primary-color);
+	letter-spacing: 1px;
+}
+.name h2{
+	font-size: 1.4rem;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+}
+.contact{
+	font-size: 1.2rem;
+	margin-left: 20px;
+}
+
+.link{
+	display: inline-flex;
+	position: relative;
+}
+.icon {
+	color: var(--primary-color);
+	font-size: 1.4rem;
+}
+i.fa-envelope{
+	position: relative;
+	left: -3px;
+}
+i.fa-map-marker-alt{
+	position: relative;
+	left: -2px;
+}
+.icon-link{
+	position: relative;
+	left: -7px;
+	margin: 10px 10px 5px 0;
+	font-size: 2.4rem;
+}
+.label{
+	padding-left: 5px;
+}
+.phone__label{
+	position: relative;
+	left: 6px;
+}
+.email__label{
+	position: relative;
+}
+.location__label{
+	position: relative;
+	left: 3px;
+}
