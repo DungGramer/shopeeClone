@@ -747,14 +747,14 @@ a[class*="fa-instagram"] {
 .app__container {
 	background-color: #f5f5f5;
 }
-.app__content{
+.app__content {
 	padding-top: 36px;
 }
 .category {
 	background-color: var(--white-color);
 	border-radius: 2px;
 }
-.category__heading{
+.category__heading {
 	font-size: 1.5rem;
 	font-weight: 500;
 	color: var(--text-color);
@@ -769,10 +769,10 @@ a[class*="fa-instagram"] {
 .category-item {
 	position: relative;
 }
-.category-item:first-child::before{
+.category-item:first-child::before {
 	display: none;
 }
-.category-item::before{
+.category-item::before {
 	content: "";
 	border-top: 1px solid #e1e1e1;
 	position: absolute;
@@ -780,24 +780,23 @@ a[class*="fa-instagram"] {
 	left: 20px;
 	right: 20px;
 }
-.category-item--active .category-item__link{
+.category-item--active .category-item__link {
 	color: var(--primary-color);
 }
 
-.category-item__link{
+.category-item__link {
 	color: var(--text-color);
 	font-size: 1.4rem;
 	text-decoration: none;
 	padding: 6px 20px;
 	display: block;
 	position: relative;
-
 }
-.category-item__link:hover{
+.category-item__link:hover {
 	color: var(--primary-color);
 }
 /* Home sort + filter */
-.home-filter{
+.home-filter {
 	display: flex;
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.04);
@@ -805,63 +804,62 @@ a[class*="fa-instagram"] {
 	border-radius: 2px;
 	width: 100%;
 }
-.home-filter__label{
+.home-filter__label {
 	font-size: 1.4rem;
 	color: #555;
 	margin-right: 16px;
 }
-.home-filter__btn{
+.home-filter__btn {
 	margin-right: 12px;
 	min-width: 90px;
 }
-.home-filter__page{
+.home-filter__page {
 	display: flex;
 	align-items: center;
 	margin-left: auto;
 }
-.home-filter__page-num{
+.home-filter__page-num {
 	font-size: 1.5rem;
 	color: var(--text-color);
 	margin-right: 22px;
 }
-.home-filter__page-current{
+.home-filter__page-current {
 	color: var(--primary-color);
 }
-.home-filter__page-control{
+.home-filter__page-control {
 	border-radius: 2px;
 	overflow: hidden;
 	display: flex;
 	width: 72px;
 	height: 36px;
 	box-shadow: 0 1px 2px #e0e0e0;
-
 }
-.home-filter__page-btn{
+.home-filter__page-btn {
 	flex: 1;
 	display: flex;
 	background-color: var(--white-color);
 	text-decoration: none;
 }
-.home-filter__page-btn--disabled{
+.home-filter__page-btn--disabled {
 	background-color: #f9f9f9;
 	cursor: default;
 }
-.home-filter__page-btn--disabled .home-filter__page-icon{
+.home-filter__page-btn--disabled .home-filter__page-icon {
 	color: #ccc;
 }
-.home-filter__page-btn:first-child{
-	border-right: 1px solid #eee ;
+.home-filter__page-btn:first-child {
+	border-right: 1px solid #eee;
 }
-.home-filter__page-icon{
+.home-filter__page-icon {
 	margin: auto;
 	font-size: 1.4rem;
 	color: #555;
 }
 /* Product item */
-.home-product{
+.home-product {
 	margin-bottom: 10px;
 }
-.home-product-item{
+.home-product-item {
 	display: block;
 	position: relative;
 	text-decoration: none;
@@ -872,9 +870,9 @@ a[class*="fa-instagram"] {
 	transition: transform ease-in 0.1s;
 	will-change: transform;
 }
-.home-product-item:hover{
+.home-product-item:hover {
 	transform: translateY(-1px);
-box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
 }
 .home-product-item__img {
 	padding-top: 100%;
@@ -921,14 +919,14 @@ box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
 .home-product-item__like {
 	font-size: 1.3rem;
 }
-i.home-product-item__like-icon-fill{
+i.home-product-item__like-icon-fill {
 	color: #f63d30;
 	display: none;
 }
-.home-product-item__like--liked .home-product-item__like-icon-fill{
+.home-product-item__like--liked .home-product-item__like-icon-fill {
 	display: inline-block;
 }
-.home-product-item__like--liked .home-product-item__like-icon-empty{
+.home-product-item__like--liked .home-product-item__like-icon-empty {
 	display: none;
 }
 .home-product-item__rating {
@@ -938,7 +936,7 @@ i.home-product-item__like-icon-fill{
 	color: #d5d5d5;
 	margin: -1px 0 0 auto;
 }
-.home-product-item__star--gold{
+.home-product-item__star--gold {
 	color: var(--star-gold-color);
 }
 .home-product-item__sold {
@@ -954,9 +952,6 @@ i.home-product-item__like-icon-fill{
 	font-size: 1.2rem;
 	font-weight: 300;
 }
-.home-product-item__brand {
-
-}
 .home-product-item__favourite {
 	position: absolute;
 	top: 10px;
@@ -970,10 +965,10 @@ i.home-product-item__like-icon-fill{
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 }
-.home-product-item__favourite span{
+.home-product-item__favourite span {
 	color: var(--white-color);
 }
-.home-product-item__favourite::after{
+.home-product-item__favourite::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -987,9 +982,6 @@ i.home-product-item__like-icon-fill{
 	margin: 0 2px 0 5px;
 	color: var(--white-color);
 }
-.home-product-item__origin-name {
-
-}
 .home-product-item__sale-off {
 	position: absolute;
 	top: 0;
@@ -1000,7 +992,7 @@ i.home-product-item__like-icon-fill{
 	background-color: rgba(255, 216, 64, 0.94);
 	border-top-right-radius: 2px;
 }
-.home-product-item__sale-off::after{
+.home-product-item__sale-off::after {
 	content: "";
 	position: absolute;
 	left: 0;
@@ -1025,4 +1017,72 @@ i.home-product-item__like-icon-fill{
 	position: relative;
 	top: -10px;
 	font-weight: 600;
+}
+.home-product__pagination {
+	margin-top: 50px;
+	margin-bottom: 32px;
+}
+/* footer */
+.footer {
+	border-top: 4px solid var(--primary-color);
+	padding-top: 12px;
+	background: var(--white-color);
+}
+.footer--heading {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	color: var(--text-color);
+}
+.footer__list{
+	padding-left: 0;
+	list-style: none;
+}
+.footer-item__link{
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: #737373;
+	padding: 2px 0;
+	display: block;
+	display: flex;
+	align-items: center;
+}
+.footer-item__link:hover{
+	color: var(--primary-color);
+}
+.footer-item__icon {
+	font-size: 1.6rem;
+	margin: -1px 8px 0 0 ;
+}
+.footer__download {
+	display: flex;
+}
+.footer__download-qr {
+	width: 80px;
+	height: 80px;
+	border: 1px solid var(--border-color);
+}
+.footer__download-apps {
+	flex: 1;
+	margin-left: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.footer__download-app-img {
+	height: 16px;
+}
+.footer__download-app-link {
+	text-decoration: none;
+	color: transparent;
+}
+.footer-bottom {
+	padding: 8px 0;
+	background-color: #f5f5f5;
+	margin-top: 36px;
+}
+.footer__text {
+	margin: 0;
+	font-size: 1.2rem;
+	text-align: center;
+	color: #737373;
 }
